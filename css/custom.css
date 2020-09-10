@@ -1,0 +1,367 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2, h3, h4, h5 {
+   
+    font-family: "DM Serif Display", serif;
+}
+
+#topbar {
+        background: #10064e;
+        text-align: center;
+        color: #fff;
+        padding: 8px 0;
+}
+#topbar p {
+    margin-bottom: 0px;;
+}
+#nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 4em;
+    z-index: 1;
+    margin-top: 50px;
+    overflow:hidden;
+}
+#nav .logo img {
+    width:230px;
+}
+#nav .logo:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #ffffff;
+    filter: blur(20px); 
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+    color: #000;
+    font-size: 35px;
+  }
+  
+  .topnav a:hover {
+    
+    color: black;
+  }
+  
+  .active {
+    
+    color: white;
+  }
+
+#about {
+    padding:4em 4em 0 4em;
+    background: linear-gradient(150deg, #fffbf4 60%, transparent 60%);
+}
+#about center{
+    padding:15px;
+}
+#about .service {
+    background: #f9f9f9;
+    -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    text-align: center;
+    padding: 2em 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+#about .service:hover {
+        background: #fff0f0;
+        box-shadow: 0px 0px 30px rgba(237, 190, 190, 0.3);
+        border-radius: 6px;
+}
+#about .middle {
+    padding:15px;
+    justify-content: center;
+    display:flex;
+}
+#about .middle img {
+   margin:0 auto;
+   width:65px;
+}
+#about .service h4 {
+margin-bottom:0px
+}
+#about .welcome h1 {
+    margin-top:0px;
+    color:#CB0000;
+}
+#about .welcome p{
+    line-height: 2.1;
+    font-size: 16px;
+}
+ .bottom {
+    background:linear-gradient(144.66deg, #eaf0fa 17.67%, #eaf0fa 30.96%, #e3e9f5 83.14%);
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+}
+.bottom p{
+    color: #777d96;
+    line-height: 1.9;
+    padding: 4em 0 4em 4em;
+    text-align: start;
+}
+.bottom:after {
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background: url(../img/background/about-aryam-bg-1.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 200px;
+    z-index: -1;
+    border-radius: 10px 0 0 10px;
+}
+#services {
+    padding:10px;
+}
+#services h1 {
+    color: rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.2;
+}
+.tab {
+    float: left;
+    width: 20%;
+    height: auto;
+  }
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: #000;
+    padding: 15px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  .tab button:hover {
+    background-color: #CB0000;
+    color: #fff;
+  }
+  .tab button.active {
+    background-color: #CB0000;
+    color: #fff;
+  }
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 80%;
+    border-left: none;
+  }
+  .tabcontent .col-md-7 img {
+      height: 35px;
+  }
+  .tabcontent .col-md-7 p {
+      line-height: 1.8;
+      letter-spacing: 1;
+      text-align: justify;
+  }
+  button.accordion {
+    background:none;
+    color: #fa7a20;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+   background :none ;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+
+div.panel.show {
+    display: block !important;
+}
+.sh li {
+    list-style: none;
+    text-decoration: none;
+    display: grid;
+    -ms-grid-columns: 18px auto;
+    grid-template-columns: 18px auto;
+    gap: 10px;
+    width: 100% ;
+    float: left; 
+}
+.sh {
+     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.85em 0em;
+    display:inline-block;
+}
+.sh p {
+    padding-top:4px;
+}
+#appoinment {
+    background: #100652;
+    overflow: hidden;
+
+}
+#appoinment .bg {
+    padding: 0px;;
+}
+#appoinment h3 {
+    color:#fff;
+    text-align:center;
+}
+#appoinment .col-12 {
+    padding-left:15px;
+    padding-right:15px;
+}
+#appoinment .col-md-12 {
+    padding-left:15px;
+    padding-right:15px;
+}
+.form-horizontal .row {
+    padding-top:55px;
+}
+.form-horizontal #submit {
+    margin-right:15px;
+}
+#covid {
+    background:#f1f1f1;
+    padding:55px;
+}
+#covid h3 {
+    color:#FA7212;
+}
+#video {
+    margin:25px;
+}
+#video p {
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+#video h2 {
+    margin-top: 10px;
+    color:#CB0000;
+}
+#statistic {
+    overflow:inherit !important;
+    padding: 4em 4em 8em 4em;
+    background: #f2f2f2;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+#statistic .bgimg {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    max-width: 600px;
+}
+#statistic .topimg {
+    position: absolute;
+    right: 15%;
+    top: -100px;
+    max-width: 450px;
+}
+.viewstat {
+    margin-top:180px;
+}
+.viewstat p {
+    color:#CB0000;
+    width: max-content;
+}
+.viewstat h3{
+color:#000;
+margin-top:0px;
+}
+.stat {
+    display: grid;
+    -ms-grid-columns: 60px auto;
+    grid-template-columns: 60px auto;
+    gap: 25px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.text .number {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+#social .share {
+    background: #22356f;
+    border-radius: 20px;
+     margin: 0 190px; 
+    padding: 20px 40px !important;
+    color: #fff;
+    position: absolute;
+    margin-top: -50px;
+    left: 0;
+    right: 0;
+    
+}
+.share p {
+    font-size:15px;
+}
+.share1 {
+    width:35px;
+    float: right;
+    padding:5px;
+}
+#footer {
+    padding: 95px 95px 20px 95px;
+}
+.copyright {
+    text-align: center;
+    padding-top: 25px;
+}
+#footer a{
+    color:#FA7212 !important;
+}
+
+
+
