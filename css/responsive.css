@@ -8,7 +8,7 @@
 }
 #nav {
     padding: 0 0em;
-    margin-top:35px;
+    margin-top:0px;
 }
 #nav .logo img {
     width: 134px;
@@ -24,6 +24,9 @@
     width: 42%;
     height: 100%;
     z-index: -1;
+}
+.topnav{
+    margin-top: 0px;
 }
 .topnav a {
     float: left;
