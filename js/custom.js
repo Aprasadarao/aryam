@@ -1,20 +1,23 @@
-/*
+
 
 var nav = document.getElementById('nav');
 
 window.onscroll = function () {
 
-  if(window.pageYOffset > 33){
+  if(window.pageYOffset > 100){
 
    nav.style.position = "fixed";
-   nav.style.top = 0;
-
+   nav.style.top = "0px";
+   nav.style.background="#fff";
+   
+   
    }else{
      nav.style.position = "absolute";
-     nav.style.top = 0;
+     nav.style.top = "35px";
+     nav.style.background="none";
 
    }
-} */
+} 
 
 function myFunction() {
   var x = document.getElementById("myLinks");

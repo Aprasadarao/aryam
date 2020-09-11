@@ -18,13 +18,13 @@ h1, h2, h3, h4, h5 {
 }
 #nav {
     position: absolute;
-    top: 0;
     left: 0;
     right: 0;
     padding: 0 4em;
     z-index: 1;
-    margin-top: 50px;
+   /* margin-top: 35px;*/
     overflow:hidden;
+    z-index:9999;
 }
 #nav .logo img {
     width:230px;
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5 {
     bottom: 0;
     background: #ffffff;
     filter: blur(20px); 
-    width: 100%;
+    width: 30%;
     height: 100%;
     z-index: -1;
 }
@@ -45,10 +45,12 @@ h1, h2, h3, h4, h5 {
 .topnav {
     overflow: hidden;
     position: relative;
+    margin-top: 25px;
   }
   
   .topnav #myLinks {
     display: none;
+    
   }
   
   .topnav a {
@@ -63,6 +65,7 @@ h1, h2, h3, h4, h5 {
     float: right;
     color: #000;
     font-size: 35px;
+    margin-top: -15px;
   }
   
   .topnav a:hover {
